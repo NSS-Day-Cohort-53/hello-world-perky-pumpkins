@@ -1,0 +1,11 @@
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.list-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
