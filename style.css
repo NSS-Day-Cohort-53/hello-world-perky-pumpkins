@@ -1,7 +1,9 @@
 /*header */
 .header {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(70, 70, 194)
 }
 
 /*navigation links*/
@@ -9,18 +11,60 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    list-style-type: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin:0px;
 }
+
+body > nav > ul {
+    padding: 5px;
+}
+
+/* current page link*/
+.active--link {
+    background-color:blueviolet ;
+}
+
+.active--link > a {
+    color:white;
+}
+
 
 /* page title*/
 .main__headline {
     text-align: center;
 }
 
+.main__headline > h1 {
+    margin-bottom: 0px;
+}
+
+.main__headline > h1 {
+    margin-top:0px;
+}
+
 /*3 list section*/
 .list-section {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    border-top:2px solid black;
+}
+
+/*cities list section*/
+.list-section__cities {
+    border-right: 2px black solid;
+}
+
+/*landmark list section*/
+.list-section__landmarks {
+    border-right: 2px black solid;
+}
+
+section > * {
+    width:auto;
+    margin: auto;
 }
 
 .list {
@@ -37,7 +81,32 @@ img {
     width: 15%;
 }
 
+.list-img {
+    width:65%;
+}
+
+/*new zealand header image*/
+#new_zealand_header_img {
+width:10%;
+}
+
+.list > li > img {
+    width:50%;
+}
+
 /* footer*/
 .footer {
     text-align: center;
+    background-color: slategray;
+}
+
+.footer > p {
+    margin-top:0px;
+    border-top:2px solid black;
+}
+
+
+/* main section*/
+main {
+    background-color: cornflowerblue;
 }
