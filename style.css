@@ -1,11 +1,43 @@
+/*header */
+.header {
+    display:flex;
+    justify-content: space-around;
+}
+
+/*navigation links*/
 .nav__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
+/* page title*/
+.main__headline {
+    text-align: center;
+}
+
+/*3 list section*/
 .list-section {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
+}
+
+.list {
+    padding:5px;
+}
+
+/*cities list section*/
+.list-section > * {
+    flex-basis:30%
+}
+
+/* images*/
+img {
+    width: 15%;
+}
+
+/* footer*/
+.footer {
+    text-align: center;
 }
